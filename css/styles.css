@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.header-text {
+    color: white;
+}
+
+.hero-section {
+    margin-top: 2rem;
+}
+
+.navbar-nav a {
+    margin-left: 1.5rem;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+/* Heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Title image */
+.phone-imgae {
+    width: 60%;
+    margin-left: 30%;
+    transform: rotate(20deg);
+}
+
+.title-hero {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: right;
+    }
+
+    .phone-imgae {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Header section background color */
+#title {
+    background-color: #ff4c68;
+}
+
+/* features section */
+
+.features p {
+    color: #8f8f8f;
+    padding: 10%;
+}
+
+.features div {
+    margin-top: 5%;
+    padding-top: 4%;
+
+}
+
+.features i {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    color: #ef8172;
+}
+
+.features i:hover {
+    color: #ff4c68;
+}
+
+#features {
+    position: relative;
+    background-color: #fff;
+    z-index: 50;
+    bottom: 6px;
+}
+
+/* Testimonials */
+#testimonials {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+/* press */
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+
+.img-press {
+    width: 15%;
+    margin: 2% 4%;
+}
+
+/* Pricing */
+.card-column {
+    padding: 2% 3%;
+}
+
+/* Call to action section */
+.my-section {
+    margin: 80px 0;
+}
+
+#cta {
+    background-color: #ff4c68;
+    font-weight: bolder;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* Footer Section */
+#footer {
+    
+    font-size: 1.3rem;
+    padding: 50px;
+}
+
+#footer i {
+    font-size: 2rem;
+    margin-left: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#footer i:hover {
+    color: #ff4c68;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
